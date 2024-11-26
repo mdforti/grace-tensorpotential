@@ -1,0 +1,43 @@
+name: 
+channels:
+  - pkgs/main
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h5eee18b_6
+  - ca-certificates=2024.9.24=h06a4308_0
+  - ld_impl_linux-64=2.40=h12ee557_0
+  - libffi=3.4.4=h6a678d5_1
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=1.41.5=h5eee18b_0
+  - ncurses=6.4=h6a678d5_0
+  - openssl=3.0.15=h5eee18b_0
+  - pip=24.2=py311h06a4308_0
+  - python=3.11.10=he870216_0
+  - readline=8.2=h5eee18b_0
+  - setuptools=75.1.0=py311h06a4308_0
+  - sqlite=3.45.3=h5eee18b_0
+  - tk=8.6.14=h39e8969_0
+  - tzdata=2024b=h04d1e81_0
+  - wheel=0.44.0=py311h06a4308_0
+  - xz=5.4.6=h5eee18b_1
+  - zlib=1.2.13=h5eee18b_1
+  - pip:
+    - tensorpotential==0.4.4
+
+prefix: "/home/storage/fortimtb/CuadernoTrabajo/2024_AIIM_SigmaPhase/.grace"
+
+errormessage: 
+    - "151it [00:00, 351660.14it/s]"
+    - "2024/11/26 15:58:31 I - [TEST] dataset stats: num. batches: 151 | num. real structures: 3020 (+5.00%) | num. real atoms: 90600 (+0.17%) | num. real neighbours: 6097728 (+2.44%) "
+    - "2024/11/26 15:58:31 I - Average number of neighbors: 67.50930154192956"
+    - "2024-11-26 15:58:31.390366: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2251] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform."
+    - "Skipping registering GPU devices..."
+    - " 2024/11/26 15:58:31 I - Saving model config to seed/2/model.yaml"
+    - "2024/11/26 15:58:31 I - JIT compilation: True"
+    - "2024/11/26 15:58:31 I - Optimization options: {'learning_rate': 0.01, 'amsgrad': True, 'use_ema': True, 'ema_momentum': 0.99, 'weight_decay': None, 'clipvalue': 1.0}"
+    - "2024/11/26 15:58:32 I - Convert data to tensors"
+    - "2024/11/26 15:58:32 I - [TRAIN] Convert to tensors"
+

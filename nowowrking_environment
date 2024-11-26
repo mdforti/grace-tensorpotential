@@ -1,0 +1,135 @@
+SHELL=/bin/bash
+TMUX=/tmp/tmux-11553/default,36473,1
+HISTSIZE=-1
+LC_ADDRESS=de_DE.UTF-8
+LC_NAME=de_DE.UTF-8
+TMUX_PLUGIN_MANAGER_PATH=/home/users/fortimtb/.tmux/plugins/
+LC_MONETARY=de_DE.UTF-8
+ENV=/usr/share/modules/init/profile.sh
+PWD=/home/users/fortimtb/storage/CuadernoTrabajo/2024_AIIM_SigmaPhase/Pace_Workflow/model_2L_04
+LOGNAME=fortimtb
+XDG_SESSION_TYPE=tty
+CONDA_PREFIX=/home/storage/fortimtb/CuadernoTrabajo/2024_AIIM_SigmaPhase/.grace
+MODULESHOME=/usr/share/modules
+MAMBA_ROOT_PREFIX=/home/users/fortimtb/.local/share/mamba
+MANPATH=:
+MOTD_SHOWN=pam
+HOME=/home/users/fortimtb
+LANG=en_US.UTF-8
+LC_PAPER=de_DE.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=40;46:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*.pdf=01:*.py=01;32:
+HOY=26/11/2024
+SSH_CONNECTION=134.147.205.205 50356 134.147.205.237 22
+TODAY=20241126
+CUDA_VISIBLE_DEVICES=1
+MODULEPATH_modshare=/opt/netapps/modulefiles:1
+XDG_SESSION_CLASS=user
+MAMBA_EXE=/home/users/fortimtb/.local/bin/micromamba
+LC_IDENTIFICATION=de_DE.UTF-8
+TERM=xterm-256color
+USER=fortimtb
+TMUX_PANE=%1
+CONDA_SHLVL=1
+LOADEDMODULES=
+SHLVL=2
+BASH_ENV=/usr/share/modules/init/bash
+LC_TELEPHONE=de_DE.UTF-8
+LC_MESSAGES=en_DE.UTF-8
+LC_MEASUREMENT=de_DE.UTF-8
+XDG_SESSION_ID=73
+LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib64:
+XDG_RUNTIME_DIR=/run/user/11553
+PS1=\e[33m\]==============================================\n\033[01;48m\]$( get_conda_env )\033[m\033[01;34m\] \u@\e[1;35m\h\[\033[00m\]:\[\033[01;33m\] \W\[\033[00m\] ] ${GITSTATUS_PROMPT} \r\n $ 
+SSH_CLIENT=134.147.205.205 50356 22
+CONDA_DEFAULT_ENV=/home/storage/fortimtb/CuadernoTrabajo/2024_AIIM_SigmaPhase/.grace
+LC_TIME=de_DE.UTF-8
+LC_ALL=en_US.UTF-8
+CUDA_HOME=/usr/local/cuda
+LC_COLLATE=en_DE.UTF-8
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/home/storage/fortimtb/CuadernoTrabajo/2024_AIIM_SigmaPhase/.grace/bin::/home/users/fortimtb/storage/bopfox/src/:/home/storage/fortimtb/usr/bin/:/home/users/fortimtb/.local/bin/::/usr/local/cuda/bin:/home/users/fortimtb/.local/share/mamba/condabin::/home/users/fortimtb/storage/bopfox/src/:/home/storage/fortimtb/usr/bin/:/home/users/fortimtb/.local/bin/::/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/netapps/utils:/home/storage/fortimtb/bin:/home/storage/fortimtb/usr/bin/:/home/users/fortimtb/.local/bin/:/opt/netapps/utils:/home/storage/fortimtb/bin:/home/storage/fortimtb/usr/bin/:/home/users/fortimtb/.local/bin/
+MODULEPATH=/opt/netapps/modulefiles
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/11553/bus
+SSH_TTY=/dev/pts/1
+LC_NUMERIC=de_DE.UTF-8
+OLDPWD=/home/users/fortimtb/storage/CuadernoTrabajo/2024_AIIM_SigmaPhase
+MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
+BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/lib/x86_64-linux-gnu/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/lib/x86_64-linux-gnu/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1
+}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre}/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+_=/usr/bin/env
