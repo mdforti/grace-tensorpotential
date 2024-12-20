@@ -205,35 +205,35 @@ def main(args):
     data = defaultdict(list)  # {"name": [], "energy": [], "forces": [], "ase_atoms": []}
 
     def collect_and_update(root, fname, format):
-        vasp_output_dict = read_vasp_output(root, fname, format, selection)
-        for key, value in vasp_output_dict.items():
-            data[key] += value
-        logger.info('Data collected successfully from {} with entries {}'.format(
-            os.path.join(root, fname),
-            len(vasp_output_dict["name"])))
-
-    for root, _, filenames in walk_file_or_dir(working_dir):
         try:
-            if filenames:
-                # 1. check if OUTCAR is presented
-                if outcar_file in filenames:
-                    collect_and_update(root, outcar_file, "vasp-out")
-                elif vasprun_file in filenames:
-                    # 2. check if vasprun.xml is presented
-                    collect_and_update(root, vasprun_file, "vasp-xml")
-                # 3. scan for modifications of OUTCAR or vasprun.xml, i.e. OUTCAR_000, etc.
-                else:
-                    for fname in filenames:
-                        if outcar_file in fname:
-                            collect_and_update(root, fname, "vasp-out")
-                        elif vasprun_file in fname:
-                            collect_and_update(root, fname, "vasp-xml")
-
+            vasp_output_dict = read_vasp_output(root, fname, format, selection)
+            for key, value in vasp_output_dict.items():
+                data[key] += value
+            logger.info('Data collected successfully from {} with entries {}'.format(
+                os.path.join(root, fname),
+                len(vasp_output_dict["name"])))
         except InvalidArgumentError as e:
             logger.error('Invalid argument: {}'.format(str(e)))
             raise e
         except Exception as e:
             logger.error('Filename could not be read: {}'.format(str(e)))
+
+
+    for root, _, filenames in walk_file_or_dir(working_dir):
+        if filenames:
+            # 1. check if OUTCAR is presented
+            if outcar_file in filenames:
+                collect_and_update(root, outcar_file, "vasp-out")
+            elif vasprun_file in filenames:
+                # 2. check if vasprun.xml is presented
+                collect_and_update(root, vasprun_file, "vasp-xml")
+            # 3. scan for modifications of OUTCAR or vasprun.xml, i.e. OUTCAR_000, etc.
+            else:
+                for fname in filenames:
+                    if outcar_file in fname:
+                        collect_and_update(root, fname, "vasp-out")
+                    elif vasprun_file in fname:
+                        collect_and_update(root, fname, "vasp-xml")
 
     df = pd.DataFrame(data)
     logger.info('Free atomic energy options: {}'.format(
